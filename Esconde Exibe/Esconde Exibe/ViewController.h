@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)OcultarView:(id)sender;
+
+- (IBAction)ExibiView:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIView *MinhaView;
+@property (weak, nonatomic) IBOutlet UIButton *BotaoExibir;
+@property (weak, nonatomic) IBOutlet UIButton *BotaoOcultar;
 @end

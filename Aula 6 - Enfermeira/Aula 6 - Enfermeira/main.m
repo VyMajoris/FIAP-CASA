@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Enfermeira.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        Enfermeira
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+ 
         
     }
     return 0;

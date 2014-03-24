@@ -1,0 +1,31 @@
+MULTIPLA ESCOLHA  31/03
+
+CMMI 
+  - o que é, sigla, etc
+  - modelos / constelações
+  - niveis - cap/mat
+  - Representações : continua (cap) e estagio (mat)
+  - nivel 2 - quais são as areas
+  - categorias
+  - objetivo generico / pratica generica / objetivo especifico / pratica especifica
+
+
+MPS-BR
+ - niveis
+ - foco 
+ - patrocinadores
+ - base tecnica, modelos de referencia
+
+requisitos
+ - sistema, funcional, n funcional, cliente
+ - requisitos volateis - ger.req - são 4
+
+
+IOS 04/04
+
+Pode consultar os slides
+ - NSLOG %@ %F %U %D
+ - StringWithFormat
+ - Getters/Setters(Tradicional) >> FAZER @PROPERTY
+ - Metodos com multiplos parametros
+ - construtores

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC38CF96192AA041009D924D /* Atleta.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38CF95192AA041009D924D /* Atleta.m */; };
 		BC8F8AF518ED5B2700A9DAA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8F8AF418ED5B2700A9DAA5 /* Foundation.framework */; };
 		BC8F8AF718ED5B2700A9DAA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8F8AF618ED5B2700A9DAA5 /* CoreGraphics.framework */; };
 		BC8F8AF918ED5B2700A9DAA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8F8AF818ED5B2700A9DAA5 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC38CF94192AA041009D924D /* Atleta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atleta.h; sourceTree = "<group>"; };
+		BC38CF95192AA041009D924D /* Atleta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atleta.m; sourceTree = "<group>"; };
 		BC8F8AF118ED5B2700A9DAA5 /* Agenda1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8F8AF418ED5B2700A9DAA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC8F8AF618ED5B2700A9DAA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		BC8F8AFA18ED5B2700A9DAA5 /* Agenda1 */ = {
 			isa = PBXGroup;
 			children = (
+				BC38CF95192AA041009D924D /* Atleta.m */,
+				BC38CF94192AA041009D924D /* Atleta.h */,
 				BC8F8B0318ED5B2700A9DAA5 /* AppDelegate.h */,
 				BC8F8B0418ED5B2700A9DAA5 /* AppDelegate.m */,
 				BC8F8B0618ED5B2700A9DAA5 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				BC8F8B0B18ED5B2700A9DAA5 /* ViewController.m in Sources */,
 				BC8F8B0518ED5B2700A9DAA5 /* AppDelegate.m in Sources */,
+				BC38CF96192AA041009D924D /* Atleta.m in Sources */,
 				BC8F8B0118ED5B2700A9DAA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				BC8F8B2518ED5B2700A9DAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8F8B2618ED5B2700A9DAA5 /* Build configuration list for PBXNativeTarget "Agenda1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				BC8F8B2818ED5B2700A9DAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

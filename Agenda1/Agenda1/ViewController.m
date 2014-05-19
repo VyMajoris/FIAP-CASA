@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Atleta.h"
+
 
 @interface ViewController ()
 
@@ -32,14 +34,21 @@
     [txtNome resignFirstResponder];
     
     
-    NSInteger altura = [txtAltura.text intValue];
-    NSInteger peso = [txtPeso.text intValue];
+    float altura = [txtAltura.text floatValue];
+    float peso = [txtPeso.text floatValue];
+    NSString *nome = txtNome.text;
     
     
-    float imc;
-    imc =  peso / (altura*altura);
-    imc = 10;	
-    NSLog(@"%f %d %d", imc, altura, peso);
+    
+    
+    
+    Atleta *a = [[Atleta alloc]init];
+    [a setNome:nome];
+    [a setPeso:peso];
+    [a setAltura:altura];
+    
+    float imc = [a calcularImcComPeso:peso eAltura:altura];
+
     
     
     
@@ -52,6 +61,9 @@
     
     
     
+}
+
+- (IBAction)VerLista:(id)sender {
 }
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     [txtAltura resignFirstResponder];

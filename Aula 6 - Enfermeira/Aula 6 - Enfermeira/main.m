@@ -13,9 +13,17 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        Enfermeira
+        Enfermeira *enfermeira = [[Enfermeira alloc] init];
+        [enfermeira setNome:@"banana"];
+        [enfermeira setAtendimentoEspecial:TRUE];
+        [enfermeira setDepartamento:@"DA SINTAXE HORRIVEL"];
+        [enfermeira setEscolaridade:@"JAVA EH MELHOR, NAO... COBOL EH MELHOR"];
+        [enfermeira setIdade:22];
+        [enfermeira setSalario:33];
+        [enfermeira setSexo:FALSE];
         
- 
+        NSLog([enfermeira nome]);
+        NSLog([enfermeira departamento]);
         
     }
     return 0;
